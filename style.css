@@ -58,7 +58,7 @@ p{
     border-radius: 5px;
     height: 80%;
     width: 40%;
-    float: right;
+    float: left;
     padding: 10px 10px;
     margin-left: 5%;
     padding-left: 2%;
@@ -74,3 +74,7 @@ p{
 #ex{
     padding: 200px;
 }
+#rani{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(233, 204, 73), tomato);
+    border-image-slice:1;
